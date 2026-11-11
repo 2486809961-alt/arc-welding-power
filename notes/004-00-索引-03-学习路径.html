@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>03 学习路径 · 弧焊电源知识库</title>
+<meta name="description" content="00 索引/03 学习路径">
+<meta property="og:title" content="03 学习路径 · 弧焊电源知识库">
+<meta property="og:description" content="00 索引/03 学习路径">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9480f%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E弧%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+  <a class="brand" href="../index.html">弧焊电源<span class="brand-sub">焊接电源课件知识库</span></a>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜索笔记 / 概念 / 公式…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <a class="btn dl" href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">⬇︎ 下载整库</a>
+  <button class="btn ghost" id="themeBtn" aria-label="切换主题">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"><div class="side-inner" id="sideInner"><a class="side-home" href="../index.html">🏠 首页</a></div></nav>
+  <main class="content">
+    <article class="note">
+<div class="note-head"><div class="crumb">00 索引/03 学习路径</div><h1>03 学习路径</h1><div class="meta-row"><span class="tag">弧焊电源</span><span class="tag">索引</span></div></div><h2>学习路径</h2>
+<blockquote>
+<p>按"负载 → 特性 → 器件 → 电路"的因果链排，共 6 站 12 个 session。每站都给页码和自测点。</p>
+</blockquote>
+<h2>第 1 站 · 先搞清对象（第1章，16 页）</h2>
+<ol>
+<li><a href="../notes/008-01-%E7%AC%AC1%E7%AB%A0-%E7%BB%AA%E8%AE%BA-00-%E7%AC%AC1%E7%AB%A0-%E7%BB%AA%E8%AE%BA-%E5%AF%BC%E8%88%AA.html" class="wikilink" title="00 第1章 绪论 导航">00 第1章 绪论 导航</a> → p003–p006：焊接是什么、弧焊电源在焊机里占什么位置（三作用：引弧/稳弧/调弧）。</li>
+<li>p007–p010：四条分类线索；p011–p015：机械调节 → 电磁控制 → 电子控制的发展线。</li>
+<li>自测：能不能用一句话说清"弧焊电源和一般电源差在哪"（答案：负载是电弧）。</li>
+</ol>
+<h2>第 2 站 · 负载：电弧（第2章前段，p017–p042）</h2>
+<ol>
+<li>电弧＝气体放电；气体放电两个前提；电离四类、电子发射四类（<a href="../notes/315-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E7%84%8A%E6%8E%A5%E7%94%B5%E5%BC%A7.html" class="wikilink" title="焊接电弧">焊接电弧</a>、<a href="../notes/319-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E7%94%B5%E5%BC%A7%E7%9A%84%E5%BC%95%E7%87%83.html" class="wikilink" title="电弧的引燃">电弧的引燃</a>）。</li>
+<li>三区压降 <span class="math-inline">$U_f=U_K+U_C+U_A$</span>；静特性三段；交流电弧三特点＋五条稳弧措施。</li>
+<li>自测：为什么焊条电弧焊的电弧"有弹性"？为什么交流要串感抗？</li>
+</ol>
+<h2>第 3 站 · 电源的三条基本特性（第2章后段，p043–p081）★全课最重</h2>
+<ol>
+<li>外特性：<span class="math-inline">$U_y=E-I_y r_o$</span>，<span class="math-inline">$r_o$</span> 定形状；稳定条件；形状怎么选（焊条：恒流带外拖；等速送丝：平/缓降；变速送丝：陡降/恒流）。</li>
+<li>空载电压 <span class="math-inline">$U_0>(1.8\sim2.25)U_f$</span>；稳态短路电流；调节特性（外特性族＋约定负载特性公式）；负载持续率与温升。</li>
+<li>动特性：空载—短路—负载的动态过程、动态指标、飞溅率。</li>
+<li>自测：给一个焊接方法，能立刻说出该选哪种外特性并讲出三条理由。</li>
+</ol>
+<h2>第 4 站 · 机械/电磁式实现（第3章，53 页）</h2>
+<ol>
+<li>变压器基础：<span class="math-inline">$E=4.44fN\Phi_m$</span>、磁路欧姆定律、漏抗与 <span class="math-inline">$k_M$</span>。</li>
+<li>两条技术路线：串电抗器、增强漏磁（BX1 动铁心 / BX3 动绕组 / BX6 抽头）。</li>
+<li>自测：椭圆外特性 <span class="math-inline">$U_f=U_0-I_fX_z$</span> 里，<span class="math-inline">$X_z$</span> 变大曲线怎么动？三种结构各自怎么改 <span class="math-inline">$X_z$</span>？</li>
+</ol>
+<h2>第 5 站 · 电子控制（第4、5章，100 页）</h2>
+<ol>
+<li>器件：晶闸管三条规律与参数、MOSFET 与 GTR 的互补、IGBT 为什么成为主力（<a href="../notes/316-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E7%94%B5%E5%8A%9B%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%99%A8%E4%BB%B6.html" class="wikilink" title="电力半导体器件">电力半导体器件</a>）。</li>
+<li>控制：反馈组合 → 外特性形状（电压→恒压、电流→陡降、截止→恒流、复合→斜）。</li>
+<li>整流：三相半波 → 半控桥 → 六相半波（只流一管）→ 双反星形带平衡电抗器；触发角 α 与移相触发。</li>
+<li>自测：<span class="math-inline">$U_D=1.17U_2(1+\cos\alpha)$</span> 与 <span class="math-inline">$2.34U_2\cos\alpha$</span> 分别属于哪种电路？</li>
+</ol>
+<h2>第 6 站 · 逆变（第6章，38 页）</h2>
+<ol>
+<li>结构 AC-DC-AC-DC；<span class="math-inline">$f\propto1/(NS)$</span> 是"轻"的根据；四条优点与两条代价。</li>
+<li>单端（正激/反激）与双端（推挽/半桥/全桥）的判据；PWM 定频调宽、PFM 定宽调频。</li>
+<li>自测：为什么逆变电源动特性好？特性控制为什么放在电子电路里？</li>
+</ol>
+<h2>考前 30 分钟</h2>
+<p><a href="../notes/007-00-%E7%B4%A2%E5%BC%95-06-%E4%B8%80%E9%A1%B5%E7%BA%B8%E5%A4%8D%E4%B9%A0.html" class="wikilink" title="06 一页纸复习">06 一页纸复习</a> → <a href="../notes/006-00-%E7%B4%A2%E5%BC%95-05-%E7%BA%A2%E8%89%B2%E9%87%8D%E7%82%B9%E6%80%BB%E8%A1%A8.html" class="wikilink" title="05 红色重点总表">05 红色重点总表</a> → <a href="../notes/335-10-%E5%85%AC%E5%BC%8F%E5%BA%93-%E5%85%AC%E5%BC%8F%E6%80%BB%E8%A1%A8.html" class="wikilink" title="公式总表">公式总表</a>。</p>
+    </article>
+    <nav class="pager"><a class="prev" href="notes/003-00-%E7%B4%A2%E5%BC%95-02-%E7%9B%AE%E5%BD%95%E4%B8%8E%E9%A1%B5%E7%A0%81%E5%AF%B9%E7%85%A7.html">← 02 目录与页码对照</a><a class="next" href="notes/005-00-%E7%B4%A2%E5%BC%95-04-%E6%A6%82%E5%BF%B5%E5%9C%B0%E5%9B%BE.html">04 概念地图 →</a></nav>
+    <footer class="foot">
+      <a href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">GitHub 仓库</a> ·
+      <a href="../index.html">首页</a> ·
+      个人学习笔记，课件版权归授课教师与学校所有
+    </footer>
+  </main>
+</div>
+<script>window.__ROOT__="../";</script>
+<script src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/contrib/auto-render.min.js"></script>
+<script src="../assets/mermaid.min.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

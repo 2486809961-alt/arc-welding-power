@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>00 关于本知识库 · 弧焊电源知识库</title>
+<meta name="description" content="00 索引/00 关于本知识库">
+<meta property="og:title" content="00 关于本知识库 · 弧焊电源知识库">
+<meta property="og:description" content="00 索引/00 关于本知识库">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9480f%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E弧%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+  <a class="brand" href="../index.html">弧焊电源<span class="brand-sub">焊接电源课件知识库</span></a>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜索笔记 / 概念 / 公式…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <a class="btn dl" href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">⬇︎ 下载整库</a>
+  <button class="btn ghost" id="themeBtn" aria-label="切换主题">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"><div class="side-inner" id="sideInner"><a class="side-home" href="../index.html">🏠 首页</a></div></nav>
+  <main class="content">
+    <article class="note">
+<div class="note-head"><div class="crumb">00 索引/00 关于本知识库</div><h1>00 关于本知识库</h1><div class="meta-row"><span class="tag">弧焊电源</span><span class="tag">索引</span></div></div><h2>关于本知识库</h2>
+<h2>这是什么</h2>
+<p>把上海工程技术大学《电力电子和焊接电源》课程课件（<strong>273 页幻灯片 / 6 章</strong>）拆成 Obsidian 库：<strong>一页一篇笔记、每条结论能回到原幻灯片</strong>，红字按老师口径标为高亮，概念做成互链卡片。</p>
+<p><code>273 篇讲义页 · 47 张概念卡 · 6 章导航 · 7 篇索引 · 24 条公式 · 55 条术语 · 2 张图谱</code></p>
+<h2>结构</h2>
+<pre class="code-raw">弧焊电源-obsidian/
+├── 00 索引/          MOC、页码对照、学习路径、概念地图、红色重点总表、一页纸复习、本页
+├── 01 第1章 绪论/              16 页
+├── 02 第2章 基本电气特性/       66 页
+├── 03 第3章 弧焊变压器/         53 页
+├── 04 第4章 电子控制型弧焊电源/ 53 页
+├── 05 第5章 晶闸管弧焊整流器/   47 页
+├── 06 第6章 逆变式弧焊电源/     38 页
+├── 07 例题/          课件回顾页与思考题汇总
+├── 08 图谱/          课程地图 / 概念网（.canvas）
+├── 09 概念卡/        47 张原子概念卡，双向链接
+├── 10 公式库/        公式总表（LaTeX）
+├── 11 附表数据/      数据表与图注索引
+├── 12 术语/          中英对照
+├── 13 手写笔记/      两份拍照讲义 → 118 页笔记 + 课堂实拍重点 11 张
+├── 99 素材/          原始课件 PDF + 273 张页图
+└── tools/            建库脚本（extract / build / 校验）
+</pre>
+<h2>怎么用</h2>
+<ol>
+<li>从 <a href="../notes/002-00-%E7%B4%A2%E5%BC%95-01-%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-MOC.html" class="wikilink" title="01 弧焊电源 MOC">01 弧焊电源 MOC</a> 进，按章跳转；</li>
+<li>按问题查（"为什么外特性要下降""逆变为什么轻"）→ <a href="../notes/005-00-%E7%B4%A2%E5%BC%95-04-%E6%A6%82%E5%BF%B5%E5%9C%B0%E5%9B%BE.html" class="wikilink" title="04 概念地图">04 概念地图</a>、<a href="../notes/335-10-%E5%85%AC%E5%BC%8F%E5%BA%93-%E5%85%AC%E5%BC%8F%E6%80%BB%E8%A1%A8.html" class="wikilink" title="公式总表">公式总表</a>；</li>
+<li>系统学 → <a href="../notes/004-00-%E7%B4%A2%E5%BC%95-03-%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84.html" class="wikilink" title="03 学习路径">03 学习路径</a>；考前速览 → <a href="../notes/007-00-%E7%B4%A2%E5%BC%95-06-%E4%B8%80%E9%A1%B5%E7%BA%B8%E5%A4%8D%E4%B9%A0.html" class="wikilink" title="06 一页纸复习">06 一页纸复习</a>；</li>
+<li>核对原文 → 每页顶部都有 <code>📄 原文</code> 一行，点页链接跳到 PDF 对应页（PDF 在 <code>99 素材/</code>）；</li>
+<li>看曲线/电路/波形 → 直接用页内嵌的 <code>pNNN.jpg</code> 页图，比文字层可靠。</li>
+</ol>
+<h2>四条硬规则</h2>
+<ol>
+<li><strong>红字＝重点</strong>：课件红字转 <code>&lt;mark&gt;高亮&lt;/mark&gt;</code>，每页再用 <code>&gt; [!important]</code> 汇总成「本页标红」，全库汇总见 <a href="../notes/006-00-%E7%B4%A2%E5%BC%95-05-%E7%BA%A2%E8%89%B2%E9%87%8D%E7%82%B9%E6%80%BB%E8%A1%A8.html" class="wikilink" title="05 红色重点总表">05 红色重点总表</a>（99 条）。</li>
+<li><strong>页码不偏移</strong>：页脚 <code>Slide n</code> 与 PDF 页序号全文 273/273 一致，故 <code>幻灯片 n ＝ PDF 第 n 页</code>，见 <a href="../notes/003-00-%E7%B4%A2%E5%BC%95-02-%E7%9B%AE%E5%BD%95%E4%B8%8E%E9%A1%B5%E7%A0%81%E5%AF%B9%E7%85%A7.html" class="wikilink" title="02 目录与页码对照">02 目录与页码对照</a>。</li>
+<li><strong>不编内容</strong>：正文全部来自课件文字层；纯图片页只写"以页图为准"并给出 OCR 机读文本（明确标注可能有错字），不臆造图形里的数值。</li>
+<li><strong>属性折叠</strong>：<code>.obsidian/snippets/折叠属性.css</code> 已启用，属性区压成一行「折叠中 · 悬停展开」，鼠标移入或 Tab 聚焦展开。</li>
+<li><strong>概念卡只写课件讲过的</strong>：每张卡的"讲义出处"表格必须指向真实页，方便当场核对。</li>
+</ol>
+<h2>生成方式（可重跑）</h2>
+<pre class="code-raw">cd 弧焊电源-obsidian
+python3 tools/extract.py &quot;99 素材/弧焊电源PPT.pdf&quot; tools/pages.json   # 文字层 → 结构化
+python3 tools/build.py                                              # → 273 篇讲义页 + 6 导航 + 自动索引
+python3 tools/pages_extra.py &amp;&amp; python3 tools/pages_extra2.py       # 公式/术语/附表/例题/图谱/MOC
+python3 tools/check.py                                              # 死链与统计校验
+</pre>
+<p>重跑幂等：同一份 PDF 生成的讲义页内容一致（<code>tools/meta.json</code> 可对比）。</p>
+    </article>
+    <nav class="pager"><a class="next" href="notes/002-00-%E7%B4%A2%E5%BC%95-01-%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-MOC.html">01 弧焊电源 MOC →</a></nav>
+    <footer class="foot">
+      <a href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">GitHub 仓库</a> ·
+      <a href="../index.html">首页</a> ·
+      个人学习笔记，课件版权归授课教师与学校所有
+    </footer>
+  </main>
+</div>
+<script>window.__ROOT__="../";</script>
+<script src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/contrib/auto-render.min.js"></script>
+<script src="../assets/mermaid.min.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

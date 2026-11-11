@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>kt-01 双单端正激式晶体管逆变电源 · 弧焊电源知识库</title>
+<meta name="description" content="13 手写笔记/课堂实拍/kt-01 双单端正激式晶体管逆变电源">
+<meta property="og:title" content="kt-01 双单端正激式晶体管逆变电源 · 弧焊电源知识库">
+<meta property="og:description" content="13 手写笔记/课堂实拍/kt-01 双单端正激式晶体管逆变电源">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9480f%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E弧%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+  <a class="brand" href="../index.html">弧焊电源<span class="brand-sub">焊接电源课件知识库</span></a>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜索笔记 / 概念 / 公式…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <a class="btn dl" href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">⬇︎ 下载整库</a>
+  <button class="btn ghost" id="themeBtn" aria-label="切换主题">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"><div class="side-inner" id="sideInner"><a class="side-home" href="../index.html">🏠 首页</a></div></nav>
+  <main class="content">
+    <article class="note">
+<div class="note-head"><div class="crumb">13 手写笔记/课堂实拍/kt-01 双单端正激式晶体管逆变电源</div><h1>kt-01 双单端正激式晶体管逆变电源</h1><div class="meta-row"><span class="tag">弧焊电源</span><span class="tag">课堂实拍</span><span class="tag">重点/实拍</span><span class="tag">章/06</span><span class="meta-chip">第 6 章</span></div></div><blockquote>
+<p>📷 课堂实拍 · 老师标注为<strong>重点</strong>（原图见下；文字为转录，公式/接点以图为准）</p>
+</blockquote>
+<h2>双单端正激式晶体管逆变电源</h2>
+<figure class="fig"><img class="note-img" src="../assets/img/kt-01.jpg" alt="kt-01.jpg" loading="lazy"></figure>
+
+<h2>实拍转录</h2>
+<ul>
+<li>老师红字标题：双单端正激式晶体管逆变电源。</li>
+<li>电路＝两组单端正激并联：上组 VT₁/VT₂ 配 VD₃/VD₄，下组 VT₃/VT₄ 配 VD₅/VD₆，各自带 Ud 输入与变压器 T₁、T₂。</li>
+<li>次级合并后经 VD₁、VD₇ 全波整流 → L、C 滤波 → RL 输出。</li>
+<li>两组交替工作，把单端正激的输出能力叠加（课件后面说"扩大向外输出的能力"）。</li>
+</ul>
+<div class="callout callout-important">
+<div class="callout-title">本页重点</div>
+<ul>
+<li><mark>同一台电源里放两组单端正激，等于用"双单端"提高输出功率；单组仍只承受一个 Ud。</mark></li>
+<li><mark>每组的开关管在变压器一次侧"单端"工作：一次电流单向，需要专门的磁复位与输出整流配合。</mark></li>
+</ul>
+</div>
+<h2>考点（怎么考）</h2>
+<ol>
+<li>认图：能指出两组单端正激的对应元件（VT1/VD3/VD4 ↔ VT3/VD5/VD6）。</li>
+<li>与推挽/全桥对比：双单端的开关管耐压只需 1 个 Ud（推挽要 2Ud），代价是器件数量翻倍、驱动更复杂。</li>
+</ol>
+<h2>对应讲义页</h2>
+<ul>
+<li><a href="../notes/268-06-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-p255-%E5%8D%95%E7%AB%AF%E5%92%8C%E5%8F%8C%E7%AB%AF%E5%88%A4%E6%96%AD%E5%8F%96%E5%86%B3%E4%BA%8E%E5%8F%98%E5%8E%8B.html" class="wikilink" title="p255 单端和双端判断取决于变压">p255</a> · 单端和双端判断取决于变压</li>
+<li><a href="../notes/269-06-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-p256-%E8%BE%93%E5%87%BA%E6%95%B4%E6%B5%81%E7%94%B5%E8%B7%AF.html" class="wikilink" title="p256 输出整流电路">p256</a> · 输出整流电路</li>
+<li><a href="../notes/270-06-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-p257-%E6%89%A9%E5%A4%A7%E5%90%91%E5%A4%96%E8%BE%93%E5%87%BA.html" class="wikilink" title="p257 扩大向外输出">p257</a> · 扩大向外输出</li>
+<li><a href="../notes/274-06-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-p261-6.2.2%E5%90%84%E7%A7%8D%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF%E7%89%B9%E7%82%B9%E4%B8%8E%E5%BA%94%E7%94%A8.html" class="wikilink" title="p261 6.2.2各种逆变电路特点与应用">p261</a> · 6.2.2各种逆变电路特点与应用</li>
+</ul>
+<h2>关联</h2>
+<ul>
+<li>概念卡：<a href="../notes/298-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%8D%95%E7%AB%AF%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF.html" class="wikilink" title="单端逆变电路">单端逆变电路</a> · <a href="../notes/299-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%8F%8C%E7%AB%AF%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF.html" class="wikilink" title="双端逆变电路">双端逆变电路</a> · <a href="../notes/331-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E9%80%86%E5%8F%98%E4%B8%BB%E7%94%B5%E8%B7%AF.html" class="wikilink" title="逆变主电路">逆变主电路</a></li>
+<li>讲义：<a href="../notes/248-06-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-00-%E7%AC%AC6%E7%AB%A0-%E9%80%86%E5%8F%98%E5%BC%8F-%E5%AF%BC%E8%88%AA.html" class="wikilink" title="00 第6章 逆变式 导航">00 第6章 逆变式 导航</a> · 总览：<a href="../notes/458-13-%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0-%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D-00-%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D%E6%80%BB%E8%A7%88.html" class="wikilink" title="00 课堂实拍总览">课堂实拍总览</a></li>
+<li>索引：<a href="../notes/002-00-%E7%B4%A2%E5%BC%95-01-%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-MOC.html" class="wikilink" title="01 弧焊电源 MOC">01 弧焊电源 MOC</a> · <a href="../notes/006-00-%E7%B4%A2%E5%BC%95-05-%E7%BA%A2%E8%89%B2%E9%87%8D%E7%82%B9%E6%80%BB%E8%A1%A8.html" class="wikilink" title="05 红色重点总表">课件标红总表</a></li>
+</ul>
+    </article>
+    <nav class="pager"><a class="prev" href="notes/458-13-%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0-%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D-00-%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D%E6%80%BB%E8%A7%88.html">← 00 课堂实拍总览</a><a class="next" href="notes/460-13-%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0-%E8%AF%BE%E5%A0%82%E5%AE%9E%E6%8B%8D-kt-02-%E5%8D%95%E7%AB%AF%E5%8F%8D%E6%BF%80%E5%BC%8F%E6%99%B6%E4%BD%93%E7%AE%A1%E9%80%86%E5%8F%98%E7%94%B5%E6%BA%90%EF%BC%88%E4%B8%BB%E7%94%B5%E8%B7%AF%E7%BB%84%E6%88%90%E4%B8%8E%E6%B3%A2%E5%BD%A2%EF%BC%89.html">kt-02 单端反激式晶体管逆变电源（主电路组成与波形） →</a></nav>
+    <footer class="foot">
+      <a href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">GitHub 仓库</a> ·
+      <a href="../index.html">首页</a> ·
+      个人学习笔记，课件版权归授课教师与学校所有
+    </footer>
+  </main>
+</div>
+<script>window.__ROOT__="../";</script>
+<script src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/contrib/auto-render.min.js"></script>
+<script src="../assets/mermaid.min.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

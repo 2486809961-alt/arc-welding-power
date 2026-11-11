@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>漏抗与漏磁 · 弧焊电源知识库</title>
+<meta name="description" content="09 概念卡/漏抗与漏磁">
+<meta property="og:title" content="漏抗与漏磁 · 弧焊电源知识库">
+<meta property="og:description" content="09 概念卡/漏抗与漏磁">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9480f%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E弧%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+  <a class="brand" href="../index.html">弧焊电源<span class="brand-sub">焊接电源课件知识库</span></a>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜索笔记 / 概念 / 公式…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <a class="btn dl" href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">⬇︎ 下载整库</a>
+  <button class="btn ghost" id="themeBtn" aria-label="切换主题">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"><div class="side-inner" id="sideInner"><a class="side-home" href="../index.html">🏠 首页</a></div></nav>
+  <main class="content">
+    <article class="note">
+<div class="note-head"><div class="crumb">09 概念卡/漏抗与漏磁</div><h1>漏抗与漏磁</h1><div class="meta-row"><span class="tag">弧焊电源</span><span class="tag">章/03</span><span class="tag">概念</span><span class="meta-chip">第 3 章</span><span class="meta-chip">3.2 变压器的结构与基本原理</span></div></div><h2>漏抗与漏磁</h2>
+<h2>一句话定义</h2>
+<blockquote>
+<p>未同时链绕一、二次绕组的漏磁通所对应的电抗，是弧焊变压器获得下降外特性的关键量。</p>
+</blockquote>
+<h2>要点</h2>
+<ol>
+<li>kM = 0~1 反映一、二次绕组的磁耦合情况；kM 越小漏磁越多，等效漏抗越大。</li>
+<li>电抗器（电感线圈）上 X = ωL，感抗与匝数平方、磁阻相关，改变铁心气隙即可改变感抗。</li>
+<li>动铁心式变压器总等效漏抗 Xz = X1 + X2 + X（动铁心部分），外特性 Uf = U0 − If·Xz 因此下降。</li>
+</ol>
+<h2>讲义出处</h2>
+<table>
+<thead>
+<tr>
+<th>幻灯片</th>
+<th>小节</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../notes/108-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-p098-%E4%B8%80%E6%AC%A1%E6%BC%8F%E6%8A%97.html" class="wikilink" title="p098 一次漏抗">p098</a></td>
+<td>3.2变压器的结构与基本原理</td>
+<td>一次漏抗与感应电动势</td>
+</tr>
+<tr>
+<td><a href="../notes/109-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-p099-%E8%87%AA%E6%84%9F.html" class="wikilink" title="p099 自感">p099</a></td>
+<td>3.2变压器的结构与基本原理</td>
+<td>自感与互感</td>
+</tr>
+<tr>
+<td><a href="../notes/111-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-p101-kM0~1%E5%8F%8D%E6%98%A0%E4%B8%80%E4%BA%8C%E6%AC%A1%E7%BB%95%E7%BB%84%E7%A3%81%E8%80%A6%E5%90%88%E6%83%85%E5%86%B5.html" class="wikilink" title="p101 kM=0~1：反映一、二次绕组磁耦合情况">p101</a></td>
+<td>4.44.fN，中om=</td>
+<td>耦合系数 kM</td>
+</tr>
+<tr>
+<td><a href="../notes/123-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-p113-%E7%94%B5%E6%8A%97%E5%99%A8%E6%98%AF%E4%B8%80%E4%B8%AA%E5%B8%A6%E9%93%81%E5%BF%83%E7%9A%84%E7%BA%BF%E5%9C%88.html" class="wikilink" title="p113 电抗器是一个带铁心的线圈">p113</a></td>
+<td>3.4 串联电抗器式弧焊变压器</td>
+<td>电抗器与感抗</td>
+</tr>
+<tr>
+<td><a href="../notes/129-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-p119-%E5%B8%A6%E8%B4%9F%E8%BD%BD%E6%97%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B.html" class="wikilink" title="p119 带负载时的工作过程">p119</a></td>
+<td>3.4 增强漏磁式弧焊变压器</td>
+<td>总等效漏抗与动铁心外特性方程</td>
+</tr>
+</tbody>
+</table>
+<h2>关联</h2>
+<ul>
+<li>同类：<a href="../notes/301-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%8F%98%E5%8E%8B%E5%99%A8%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.html" class="wikilink" title="变压器的工作原理">变压器的工作原理</a> · <a href="../notes/303-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%A2%9E%E5%BC%BA%E6%BC%8F%E7%A3%81%E5%BC%8F%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8.html" class="wikilink" title="增强漏磁式弧焊变压器">增强漏磁式弧焊变压器</a> · <a href="../notes/292-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E4%B8%B2%E8%81%94%E7%94%B5%E6%8A%97%E5%99%A8%E5%BC%8F%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8.html" class="wikilink" title="串联电抗器式弧焊变压器">串联电抗器式弧焊变压器</a></li>
+<li>章：<a href="../notes/092-03-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-00-%E7%AC%AC3%E7%AB%A0-%E5%BC%A7%E7%84%8A%E5%8F%98%E5%8E%8B%E5%99%A8-%E5%AF%BC%E8%88%AA.html" class="wikilink" title="00 第3章 弧焊变压器 导航">00 第3章 弧焊变压器 导航</a></li>
+<li>索引：<a href="../notes/002-00-%E7%B4%A2%E5%BC%95-01-%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-MOC.html" class="wikilink" title="01 弧焊电源 MOC">01 弧焊电源 MOC</a> · <a href="../notes/006-00-%E7%B4%A2%E5%BC%95-05-%E7%BA%A2%E8%89%B2%E9%87%8D%E7%82%B9%E6%80%BB%E8%A1%A8.html" class="wikilink" title="05 红色重点总表">红色重点总表</a></li>
+</ul>
+    </article>
+    <nav class="pager"><a class="prev" href="notes/313-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8.html">← 晶闸管弧焊整流器</a><a class="next" href="notes/315-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E7%84%8A%E6%8E%A5%E7%94%B5%E5%BC%A7.html">焊接电弧 →</a></nav>
+    <footer class="foot">
+      <a href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">GitHub 仓库</a> ·
+      <a href="../index.html">首页</a> ·
+      个人学习笔记，课件版权归授课教师与学校所有
+    </footer>
+  </main>
+</div>
+<script>window.__ROOT__="../";</script>
+<script src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/contrib/auto-render.min.js"></script>
+<script src="../assets/mermaid.min.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

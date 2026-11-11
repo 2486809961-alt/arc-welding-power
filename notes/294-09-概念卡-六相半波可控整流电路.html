@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>六相半波可控整流电路 · 弧焊电源知识库</title>
+<meta name="description" content="09 概念卡/六相半波可控整流电路">
+<meta property="og:title" content="六相半波可控整流电路 · 弧焊电源知识库">
+<meta property="og:description" content="09 概念卡/六相半波可控整流电路">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23d9480f%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27sans-serif%27%3E弧%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="目录">☰</button>
+  <a class="brand" href="../index.html">弧焊电源<span class="brand-sub">焊接电源课件知识库</span></a>
+  <div class="search-wrap">
+    <input id="searchInput" type="search" placeholder="搜索笔记 / 概念 / 公式…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <a class="btn dl" href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">⬇︎ 下载整库</a>
+  <button class="btn ghost" id="themeBtn" aria-label="切换主题">◐</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"><div class="side-inner" id="sideInner"><a class="side-home" href="../index.html">🏠 首页</a></div></nav>
+  <main class="content">
+    <article class="note">
+<div class="note-head"><div class="crumb">09 概念卡/六相半波可控整流电路</div><h1>六相半波可控整流电路</h1><div class="meta-row"><span class="tag">弧焊电源</span><span class="tag">章/05</span><span class="tag">概念</span><span class="meta-chip">第 5 章</span><span class="meta-chip">5.2 三相可控整流主电路</span></div></div><h2>六相半波可控整流电路</h2>
+<h2>一句话定义</h2>
+<blockquote>
+<p>变压器次级每铁心两个绕组、共六个绕组接成六相，经六只晶闸管共阴极整流，每管每周期导通 60°。</p>
+</blockquote>
+<h2>要点</h2>
+<ol>
+<li>结构：次级侧共六个绕组，分三组，所有绕组有一个公共端呈星形接法，共阴极接法，初级侧三角形接法。</li>
+<li>最大优点：焊接电流只流经一个 SCR——大电流焊机中管压降损耗小。</li>
+<li>输出电压 UD = 1.35U₂cosα（α = 60° 时输出波形临界连续）。</li>
+</ol>
+<h2>讲义出处</h2>
+<table>
+<thead>
+<tr>
+<th>幻灯片</th>
+<th>小节</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../notes/225-05-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8-p213-%E6%AC%A1%E7%BA%A7%E4%BE%A7%E5%85%B1%E6%9C%89%E5%85%AD%E4%B8%AA%E7%BB%95%E7%BB%84.html" class="wikilink" title="p213 次级侧共有六个绕组">p213</a></td>
+<td>75.2.2 三相全控桥式整流主电路</td>
+<td>六相半波可控整流电路结构</td>
+</tr>
+<tr>
+<td><a href="../notes/226-05-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8-p214-%E6%9C%80%E5%A4%A7%E4%BC%98%E7%82%B9%E7%84%8A%E6%8E%A5%E7%94%B5%E6%B5%81%E5%8F%AA%E6%B5%81%E7%BB%8F%E4%B8%80%E4%B8%AASCR.html" class="wikilink" title="p214 最大优点：焊接电流只流经一个SCR">p214</a></td>
+<td>75.2.2 三相全控桥式整流主电路</td>
+<td>最大优点：电流只流经一个 SCR</td>
+</tr>
+<tr>
+<td><a href="../notes/227-05-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8-p215-a60%E7%94%B5%E9%98%BB%E6%80%A7%E8%B4%9F%E8%BD%BD%E8%BE%93%E5%87%BA%E6%B3%A2%E5%BD%A2%E5%88%86%E6%9E%90.html" class="wikilink" title="p215 a=60°电阻性负载输出波形分析">p215</a></td>
+<td>75.2.2 三相全控桥式整流主电路</td>
+<td>α=60° 波形与 UD=1.35U₂cosα</td>
+</tr>
+<tr>
+<td><a href="../notes/229-05-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8-p217-%E6%AC%A1%E7%BA%A7%E4%BE%A7%E5%85%B1%E6%9C%89%E5%85%AD%E4%B8%AA%E7%BB%95%E7%BB%84.html" class="wikilink" title="p217 次级侧共有六个绕组">p217</a></td>
+<td>75.2.2 三相全控桥式整流主电路</td>
+<td>次级侧六个绕组</td>
+</tr>
+</tbody>
+</table>
+<h2>关联</h2>
+<ul>
+<li>同类：<a href="../notes/290-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E4%B8%89%E7%9B%B8%E5%8D%8A%E6%8E%A7%E6%A1%A5%E5%BC%8F%E6%95%B4%E6%B5%81%E7%94%B5%E8%B7%AF.html" class="wikilink" title="三相半控桥式整流电路">三相半控桥式整流电路</a> · <a href="../notes/306-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%B8%A6%E5%B9%B3%E8%A1%A1%E7%94%B5%E6%8A%97%E5%99%A8%E5%8F%8C%E5%8F%8D%E6%98%9F%E5%BD%A2%E6%95%B4%E6%B5%81%E7%94%B5%E8%B7%AF.html" class="wikilink" title="带平衡电抗器双反星形整流电路">带平衡电抗器双反星形整流电路</a></li>
+<li>章：<a href="../notes/200-05-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E5%BC%A7%E7%84%8A%E6%95%B4%E6%B5%81%E5%99%A8-00-%E7%AC%AC5%E7%AB%A0-%E6%99%B6%E9%97%B8%E7%AE%A1%E6%95%B4%E6%B5%81%E5%99%A8-%E5%AF%BC%E8%88%AA.html" class="wikilink" title="00 第5章 晶闸管整流器 导航">00 第5章 晶闸管整流器 导航</a></li>
+<li>索引：<a href="../notes/002-00-%E7%B4%A2%E5%BC%95-01-%E5%BC%A7%E7%84%8A%E7%94%B5%E6%BA%90-MOC.html" class="wikilink" title="01 弧焊电源 MOC">01 弧焊电源 MOC</a> · <a href="../notes/006-00-%E7%B4%A2%E5%BC%95-05-%E7%BA%A2%E8%89%B2%E9%87%8D%E7%82%B9%E6%80%BB%E8%A1%A8.html" class="wikilink" title="05 红色重点总表">红色重点总表</a></li>
+</ul>
+    </article>
+    <nav class="pager"><a class="prev" href="notes/293-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E4%BA%A4%E6%B5%81%E7%94%B5%E5%BC%A7%E7%9A%84%E7%A8%B3%E5%AE%9A%E6%80%A7.html">← 交流电弧的稳定性</a><a class="next" href="notes/295-09-%E6%A6%82%E5%BF%B5%E5%8D%A1-%E5%8A%A8%E7%89%B9%E6%80%A7.html">动特性 →</a></nav>
+    <footer class="foot">
+      <a href="https://github.com/2486809961-alt/arc-welding-power" target="_blank" rel="noopener">GitHub 仓库</a> ·
+      <a href="../index.html">首页</a> ·
+      个人学习笔记，课件版权归授课教师与学校所有
+    </footer>
+  </main>
+</div>
+<script>window.__ROOT__="../";</script>
+<script src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/contrib/auto-render.min.js"></script>
+<script src="../assets/mermaid.min.js"></script>
+<script src="../assets/app.js"></script>
+</body>
+</html>

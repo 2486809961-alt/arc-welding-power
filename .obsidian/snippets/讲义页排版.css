@@ -1,0 +1,17 @@
+/* 弧焊电源讲义库：讲义页版式（默认不启用，需要时在 设置→外观→CSS 片段 里打开） */
+.markdown-preview-view img[alt$=".jpg"] {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  background: #fff;
+  padding: 4px;
+  margin: 6px 0 18px;
+  max-width: 100%;
+}
+.markdown-preview-view h1 { letter-spacing: .02em; }
+.callout[data-callout="important"] { --callout-color: 220, 38, 38; }
+.callout[data-callout="note"] { --callout-color: 100, 116, 139; }
+/* 标红 emphasis 更像荧光笔 */
+.markdown-preview-view mark, .markdown-preview-view .cm-highlight {
+  background: rgba(255, 214, 102, .45);
+  color: inherit;
+}

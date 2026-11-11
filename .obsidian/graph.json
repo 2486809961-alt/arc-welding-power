@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"01 01 第1章\"",
+      "color": {
+        "a": 1,
+        "rgb": 4216057
+      }
+    },
+    {
+      "query": "path:\"02 02 第2章\"",
+      "color": {
+        "a": 1,
+        "rgb": 4551651
+      }
+    },
+    {
+      "query": "path:\"03 03 第3章\"",
+      "color": {
+        "a": 1,
+        "rgb": 10699723
+      }
+    },
+    {
+      "query": "path:\"04 04 第4章\"",
+      "color": {
+        "a": 1,
+        "rgb": 14057093
+      }
+    },
+    {
+      "query": "path:\"05 05 第5章\"",
+      "color": {
+        "a": 1,
+        "rgb": 2328630
+      }
+    },
+    {
+      "query": "path:\"06 06 第6章\"",
+      "color": {
+        "a": 1,
+        "rgb": 6716338
+      }
+    },
+    {
+      "query": "path:\"00 索引\"",
+      "color": {
+        "a": 1,
+        "rgb": 13069173
+      }
+    },
+    {
+      "query": "path:\"09 概念卡\"",
+      "color": {
+        "a": 1,
+        "rgb": 9085258
+      }
+    },
+    {
+      "query": "path:\"10 公式库\"",
+      "color": {
+        "a": 1,
+        "rgb": 12632256
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.5,
+  "repelStrength": 11,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.5422928294053391,
+  "close": true
+}

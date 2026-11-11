@@ -1,0 +1,771 @@
+{
+ "nodes": [
+  {
+   "id": "g1",
+   "type": "text",
+   "text": "# 绪论",
+   "x": -700,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "g2",
+   "type": "text",
+   "text": "# 基本电气特性",
+   "x": -180,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "g3",
+   "type": "text",
+   "text": "# 弧焊变压器",
+   "x": 340,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "g4",
+   "type": "text",
+   "text": "# 电子控制型",
+   "x": 860,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "g5",
+   "type": "text",
+   "text": "# 晶闸管整流器",
+   "x": 1380,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "g6",
+   "type": "text",
+   "text": "# 逆变式",
+   "x": 1900,
+   "y": -300,
+   "width": 420,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "c0",
+   "type": "file",
+   "file": "09 概念卡/PFM 控制.md",
+   "x": 1900,
+   "y": -160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c1",
+   "type": "file",
+   "file": "09 概念卡/PWM 控制.md",
+   "x": 1900,
+   "y": -160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c2",
+   "type": "file",
+   "file": "09 概念卡/三相半控桥式整流电路.md",
+   "x": 1380,
+   "y": -160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c3",
+   "type": "file",
+   "file": "09 概念卡/三相半波可控整流电路.md",
+   "x": 1380,
+   "y": -160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c4",
+   "type": "file",
+   "file": "09 概念卡/串联电抗器式弧焊变压器.md",
+   "x": 340,
+   "y": -40,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c5",
+   "type": "file",
+   "file": "09 概念卡/交流电弧的稳定性.md",
+   "x": -180,
+   "y": -40,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c6",
+   "type": "file",
+   "file": "09 概念卡/六相半波可控整流电路.md",
+   "x": 1380,
+   "y": -40,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c7",
+   "type": "file",
+   "file": "09 概念卡/动特性.md",
+   "x": -180,
+   "y": -40,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c8",
+   "type": "file",
+   "file": "09 概念卡/动绕组式弧焊变压器.md",
+   "x": 340,
+   "y": 80,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c9",
+   "type": "file",
+   "file": "09 概念卡/动铁心式弧焊变压器.md",
+   "x": 340,
+   "y": 80,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c10",
+   "type": "file",
+   "file": "09 概念卡/单端逆变电路.md",
+   "x": 1900,
+   "y": 80,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c11",
+   "type": "file",
+   "file": "09 概念卡/双端逆变电路.md",
+   "x": 1900,
+   "y": 80,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c12",
+   "type": "file",
+   "file": "09 概念卡/反馈控制与外特性形状.md",
+   "x": 860,
+   "y": 200,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c13",
+   "type": "file",
+   "file": "09 概念卡/变压器的工作原理.md",
+   "x": 340,
+   "y": 200,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c14",
+   "type": "file",
+   "file": "09 概念卡/场效应管.md",
+   "x": 860,
+   "y": 200,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c15",
+   "type": "file",
+   "file": "09 概念卡/增强漏磁式弧焊变压器.md",
+   "x": 340,
+   "y": 200,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c16",
+   "type": "file",
+   "file": "09 概念卡/外特性.md",
+   "x": -180,
+   "y": 320,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c17",
+   "type": "file",
+   "file": "09 概念卡/外特性形状的选择.md",
+   "x": -180,
+   "y": 320,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c18",
+   "type": "file",
+   "file": "09 概念卡/带平衡电抗器双反星形整流电路.md",
+   "x": 1380,
+   "y": 320,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c19",
+   "type": "file",
+   "file": "09 概念卡/弧焊变压器.md",
+   "x": 340,
+   "y": 320,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c20",
+   "type": "file",
+   "file": "09 概念卡/弧焊电源.md",
+   "x": -700,
+   "y": 440,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c21",
+   "type": "file",
+   "file": "09 概念卡/弧焊电源的分类.md",
+   "x": -700,
+   "y": 440,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c22",
+   "type": "file",
+   "file": "09 概念卡/弧焊电源的基本要求.md",
+   "x": -180,
+   "y": 440,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c23",
+   "type": "file",
+   "file": "09 概念卡/抽头式弧焊变压器.md",
+   "x": 340,
+   "y": 440,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c24",
+   "type": "file",
+   "file": "09 概念卡/晶闸管.md",
+   "x": 860,
+   "y": 560,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c25",
+   "type": "file",
+   "file": "09 概念卡/晶闸管弧焊整流器.md",
+   "x": 1380,
+   "y": 560,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c26",
+   "type": "file",
+   "file": "09 概念卡/漏抗与漏磁.md",
+   "x": 340,
+   "y": 560,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c27",
+   "type": "file",
+   "file": "09 概念卡/焊接电弧.md",
+   "x": -180,
+   "y": 560,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c28",
+   "type": "file",
+   "file": "09 概念卡/电力半导体器件.md",
+   "x": 860,
+   "y": 680,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c29",
+   "type": "file",
+   "file": "09 概念卡/电子控制型弧焊电源.md",
+   "x": 860,
+   "y": 680,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c30",
+   "type": "file",
+   "file": "09 概念卡/电弧动特性.md",
+   "x": -180,
+   "y": 680,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c31",
+   "type": "file",
+   "file": "09 概念卡/电弧的引燃.md",
+   "x": -180,
+   "y": 680,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c32",
+   "type": "file",
+   "file": "09 概念卡/电弧的结构与电压分布.md",
+   "x": -180,
+   "y": 800,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c33",
+   "type": "file",
+   "file": "09 概念卡/电弧静特性.md",
+   "x": -180,
+   "y": 800,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c34",
+   "type": "file",
+   "file": "09 概念卡/电源—电弧系统稳定条件.md",
+   "x": -180,
+   "y": 800,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c35",
+   "type": "file",
+   "file": "09 概念卡/磁路欧姆定律.md",
+   "x": 340,
+   "y": 800,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c36",
+   "type": "file",
+   "file": "09 概念卡/稳态短路电流.md",
+   "x": -180,
+   "y": 920,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c37",
+   "type": "file",
+   "file": "09 概念卡/空载电压.md",
+   "x": -180,
+   "y": 920,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c38",
+   "type": "file",
+   "file": "09 概念卡/绝缘栅双极型晶体管.md",
+   "x": 860,
+   "y": 920,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c39",
+   "type": "file",
+   "file": "09 概念卡/脉冲电弧.md",
+   "x": -180,
+   "y": 920,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c40",
+   "type": "file",
+   "file": "09 概念卡/触发电路.md",
+   "x": 1380,
+   "y": 1040,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c41",
+   "type": "file",
+   "file": "09 概念卡/调节特性.md",
+   "x": -180,
+   "y": 1040,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c42",
+   "type": "file",
+   "file": "09 概念卡/负载持续率.md",
+   "x": -180,
+   "y": 1040,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c43",
+   "type": "file",
+   "file": "09 概念卡/逆变主电路.md",
+   "x": 1900,
+   "y": 1040,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c44",
+   "type": "file",
+   "file": "09 概念卡/逆变式弧焊电源.md",
+   "x": 1900,
+   "y": 1160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c45",
+   "type": "file",
+   "file": "09 概念卡/逆变式弧焊电源的特性控制.md",
+   "x": 1900,
+   "y": 1160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "c46",
+   "type": "file",
+   "file": "09 概念卡/逆变式弧焊电源的特点.md",
+   "x": 1900,
+   "y": 1160,
+   "width": 420,
+   "height": 90,
+   "color": "6"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "g6",
+   "toNode": "c0"
+  },
+  {
+   "id": "e1",
+   "fromNode": "g6",
+   "toNode": "c1"
+  },
+  {
+   "id": "e2",
+   "fromNode": "g5",
+   "toNode": "c2"
+  },
+  {
+   "id": "e3",
+   "fromNode": "g5",
+   "toNode": "c3"
+  },
+  {
+   "id": "e4",
+   "fromNode": "g3",
+   "toNode": "c4"
+  },
+  {
+   "id": "e5",
+   "fromNode": "g2",
+   "toNode": "c5"
+  },
+  {
+   "id": "e6",
+   "fromNode": "g5",
+   "toNode": "c6"
+  },
+  {
+   "id": "e7",
+   "fromNode": "g2",
+   "toNode": "c7"
+  },
+  {
+   "id": "e8",
+   "fromNode": "g3",
+   "toNode": "c8"
+  },
+  {
+   "id": "e9",
+   "fromNode": "g3",
+   "toNode": "c9"
+  },
+  {
+   "id": "e10",
+   "fromNode": "g6",
+   "toNode": "c10"
+  },
+  {
+   "id": "e11",
+   "fromNode": "g6",
+   "toNode": "c11"
+  },
+  {
+   "id": "e12",
+   "fromNode": "g4",
+   "toNode": "c12"
+  },
+  {
+   "id": "e13",
+   "fromNode": "g3",
+   "toNode": "c13"
+  },
+  {
+   "id": "e14",
+   "fromNode": "g4",
+   "toNode": "c14"
+  },
+  {
+   "id": "e15",
+   "fromNode": "g3",
+   "toNode": "c15"
+  },
+  {
+   "id": "e16",
+   "fromNode": "g2",
+   "toNode": "c16"
+  },
+  {
+   "id": "e17",
+   "fromNode": "g2",
+   "toNode": "c17"
+  },
+  {
+   "id": "e18",
+   "fromNode": "g5",
+   "toNode": "c18"
+  },
+  {
+   "id": "e19",
+   "fromNode": "g3",
+   "toNode": "c19"
+  },
+  {
+   "id": "e20",
+   "fromNode": "g1",
+   "toNode": "c20"
+  },
+  {
+   "id": "e21",
+   "fromNode": "g1",
+   "toNode": "c21"
+  },
+  {
+   "id": "e22",
+   "fromNode": "g2",
+   "toNode": "c22"
+  },
+  {
+   "id": "e23",
+   "fromNode": "g3",
+   "toNode": "c23"
+  },
+  {
+   "id": "e24",
+   "fromNode": "g4",
+   "toNode": "c24"
+  },
+  {
+   "id": "e25",
+   "fromNode": "g5",
+   "toNode": "c25"
+  },
+  {
+   "id": "e26",
+   "fromNode": "g3",
+   "toNode": "c26"
+  },
+  {
+   "id": "e27",
+   "fromNode": "g2",
+   "toNode": "c27"
+  },
+  {
+   "id": "e28",
+   "fromNode": "g4",
+   "toNode": "c28"
+  },
+  {
+   "id": "e29",
+   "fromNode": "g4",
+   "toNode": "c29"
+  },
+  {
+   "id": "e30",
+   "fromNode": "g2",
+   "toNode": "c30"
+  },
+  {
+   "id": "e31",
+   "fromNode": "g2",
+   "toNode": "c31"
+  },
+  {
+   "id": "e32",
+   "fromNode": "g2",
+   "toNode": "c32"
+  },
+  {
+   "id": "e33",
+   "fromNode": "g2",
+   "toNode": "c33"
+  },
+  {
+   "id": "e34",
+   "fromNode": "g2",
+   "toNode": "c34"
+  },
+  {
+   "id": "e35",
+   "fromNode": "g3",
+   "toNode": "c35"
+  },
+  {
+   "id": "e36",
+   "fromNode": "g2",
+   "toNode": "c36"
+  },
+  {
+   "id": "e37",
+   "fromNode": "g2",
+   "toNode": "c37"
+  },
+  {
+   "id": "e38",
+   "fromNode": "g4",
+   "toNode": "c38"
+  },
+  {
+   "id": "e39",
+   "fromNode": "g2",
+   "toNode": "c39"
+  },
+  {
+   "id": "e40",
+   "fromNode": "g5",
+   "toNode": "c40"
+  },
+  {
+   "id": "e41",
+   "fromNode": "g2",
+   "toNode": "c41"
+  },
+  {
+   "id": "e42",
+   "fromNode": "g2",
+   "toNode": "c42"
+  },
+  {
+   "id": "e43",
+   "fromNode": "g6",
+   "toNode": "c43"
+  },
+  {
+   "id": "e44",
+   "fromNode": "g6",
+   "toNode": "c44"
+  },
+  {
+   "id": "e45",
+   "fromNode": "g6",
+   "toNode": "c45"
+  },
+  {
+   "id": "e46",
+   "fromNode": "g6",
+   "toNode": "c46"
+  }
+ ]
+}

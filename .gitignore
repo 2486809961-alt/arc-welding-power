@@ -1,0 +1,11 @@
+public/
+.obsidian/workspace*.json
+.obsidian/cache
+.DS_Store
+*.dsh-backup
+tools/pages.json
+tools/ocr.json
+tools/hw.json
+tools/meta.json
+__pycache__/
+99 素材/弧焊电源PPT.pdf

@@ -1,0 +1,112 @@
+{
+ "nodes": [
+  {
+   "id": "course",
+   "type": "text",
+   "text": "# 电力电子和焊接电源\n273 页课件 · 6 章\n[[01 弧焊电源 MOC]]",
+   "x": -60,
+   "y": -320,
+   "width": 420,
+   "height": 160,
+   "color": "1"
+  },
+  {
+   "id": "ch1",
+   "type": "text",
+   "text": "# 第一章 绪论\np001–p016 · 16 页\n[[00 第1章 绪论 导航]]",
+   "x": -560,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  },
+  {
+   "id": "ch2",
+   "type": "text",
+   "text": "# 第二章 弧焊电源的基本电气特性\np017–p082 · 66 页\n[[00 第2章 基本电气特性 导航]]",
+   "x": -160,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  },
+  {
+   "id": "ch3",
+   "type": "text",
+   "text": "# 第三章 弧焊变压器\np083–p135 · 53 页\n[[00 第3章 弧焊变压器 导航]]",
+   "x": 240,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  },
+  {
+   "id": "ch4",
+   "type": "text",
+   "text": "# 第四章 电子控制型弧焊电源\np136–p188 · 53 页\n[[00 第4章 电子控制型 导航]]",
+   "x": 640,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  },
+  {
+   "id": "ch5",
+   "type": "text",
+   "text": "# 第五章 晶闸管弧焊整流器\np189–p235 · 47 页\n[[00 第5章 晶闸管整流器 导航]]",
+   "x": 1040,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  },
+  {
+   "id": "ch6",
+   "type": "text",
+   "text": "# 第六章 逆变式弧焊电源\np236–p273 · 38 页\n[[00 第6章 逆变式 导航]]",
+   "x": 1440,
+   "y": 40,
+   "width": 360,
+   "height": 140,
+   "color": "5"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e-ch1",
+   "fromNode": "course",
+   "toNode": "ch1",
+   "label": "第1章"
+  },
+  {
+   "id": "e-ch2",
+   "fromNode": "course",
+   "toNode": "ch2",
+   "label": "第2章"
+  },
+  {
+   "id": "e-ch3",
+   "fromNode": "course",
+   "toNode": "ch3",
+   "label": "第3章"
+  },
+  {
+   "id": "e-ch4",
+   "fromNode": "course",
+   "toNode": "ch4",
+   "label": "第4章"
+  },
+  {
+   "id": "e-ch5",
+   "fromNode": "course",
+   "toNode": "ch5",
+   "label": "第5章"
+  },
+  {
+   "id": "e-ch6",
+   "fromNode": "course",
+   "toNode": "ch6",
+   "label": "第6章"
+  }
+ ]
+}

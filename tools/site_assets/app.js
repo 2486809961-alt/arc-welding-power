@@ -12,15 +12,20 @@
       .then(function (html) {
         box.innerHTML = html.replace(/href="(index\.html|notes\/)/g, 'href="' + ROOT + '$1');
         var cur = decodeURIComponent(location.pathname.split("/").pop() || "");
+        var h1 = document.querySelector(".note-head h1");
+        var title = h1 ? h1.textContent.trim() : "";
+        var hit = null;
         box.querySelectorAll("a.side-link").forEach(function (a) {
           var href = decodeURIComponent(a.getAttribute("href").split("/").pop() || "");
-          if (href === cur) {
-            a.classList.add("active");
-            var g = a.closest("details");
-            if (g) g.open = true;
-            if (a.scrollIntoView) { try { a.scrollIntoView({ block: "center" }); } catch (e) {} }
-          }
+          var t = (a.getAttribute("data-title") || "").trim();
+          if (href === cur || (title && t === title)) hit = a;
         });
+        if (hit) {
+          hit.classList.add("active");
+          var g = hit.closest("details");
+          if (g) g.open = true;
+          try { hit.scrollIntoView({ block: "center" }); } catch (e) {}
+        }
         // 搜索用标题索引（数据在 search.json）
       })
       .catch(function () {});

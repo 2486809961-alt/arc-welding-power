@@ -10,6 +10,9 @@ aliases:
 
 # 弧焊电源 · Obsidian 知识库
 
+- 🌐 网页版（在线阅读 + 全文搜索）：**https://2486809961-alt.github.io/arc-welding-power/**
+- 💻 GitHub 仓库：https://github.com/2486809961-alt/arc-welding-power
+
 把上海工程技术大学《电力电子和焊接电源》课程课件（**273 页幻灯片 / 6 章**）拆成的 Obsidian 知识库：
 一页一篇笔记、红字标为考点、概念做成互链卡片，每页顶部有指向原始 PDF 对应页的链接，并内嵌该页原图。
 

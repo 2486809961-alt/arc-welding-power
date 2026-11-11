@@ -25,6 +25,8 @@ graph LR
   E --> F
 ```
 
+> 🌐 网页版：https://2486809961-alt.github.io/arc-welding-power/
+
 ## 快速入口
 
 | 我要… | 去 |
